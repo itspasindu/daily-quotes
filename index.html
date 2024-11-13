@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Cheat Sheet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Python Cheat Sheet</h1>
+        <input type="text" id="search" placeholder="Search..." onkeyup="filterContent()">
+    </header>
+    <main>
+        <section class="cheat-sheet">
+            <!-- Basic Syntax -->
+            <div class="topic">
+                <button class="collapsible">Basic Syntax</button>
+                <div class="content">
+                    <p><strong>Print Statement:</strong> <code>print("Hello, World!")</code></p>
+                    <p><strong>Comments:</strong> <code># This is a comment</code></p>
+                </div>
+            </div>
+            <!-- Data Types -->
+            <div class="topic">
+                <button class="collapsible">Data Types</button>
+                <div class="content">
+                    <p><strong>Integer:</strong> <code>x = 5</code></p>
+                    <p><strong>Float:</strong> <code>y = 3.14</code></p>
+                    <p><strong>String:</strong> <code>name = "Python"</code></p>
+                    <p><strong>List:</strong> <code>numbers = [1, 2, 3]</code></p>
+                    <p><strong>Tuple:</strong> <code>coordinates = (10, 20)</code></p>
+                    <p><strong>Dictionary:</strong> <code>person = {"name": "Alice", "age": 25}</code></p>
+                    <p><strong>Set:</strong> <code>unique_numbers = {1, 2, 3}</code></p>
+                </div>
+            </div>
+            <!-- Control Flow -->
+            <div class="topic">
+                <button class="collapsible">Control Flow</button>
+                <div class="content">
+                    <p><strong>If Statement:</strong> <code>if x > 0: print("Positive")</code></p>
+                    <p><strong>For Loop:</strong> <code>for i in range(5): print(i)</code></p>
+                    <p><strong>While Loop:</strong> <code>while x < 5: x += 1</code></p>
+                </div>
+            </div>
+            <!-- Functions -->
+            <div class="topic">
+                <button class="collapsible">Functions</button>
+                <div class="content">
+                    <p><strong>Defining a Function:</strong> <code>def my_function(): pass</code></p>
+                    <p><strong>Function with Parameters:</strong> <code>def add(a, b): return a + b</code></p>
+                    <p><strong>Lambda Function:</strong> <code>add = lambda a, b: a + b</code></p>
+                </div>
+            </div>
+            <!-- Classes and Objects -->
+            <div class="topic">
+                <button class="collapsible">Classes and Objects</button>
+                <div class="content">
+                    <p><strong>Defining a Class:</strong> <code>class MyClass: pass</code></p>
+                    <p><strong>Constructor:</strong> <code>def __init__(self, param): self.param = param</code></p>
+                    <p><strong>Creating an Object:</strong> <code>obj = MyClass(param)</code></p>
+                </div>
+            </div>
+            <!-- Modules -->
+            <div class="topic">
+                <button class="collapsible">Modules</button>
+                <div class="content">
+                    <p><strong>Importing a Module:</strong> <code>import module_name</code></p>
+                    <p><strong>Importing Specific Function:</strong> <code>from module_name import function_name</code></p>
+                </div>
+            </div>
+            <!-- File Handling -->
+            <div class="topic">
+                <button class="collapsible">File Handling</button>
+                <div class="content">
+                    <p><strong>Opening a File:</strong> <code>file = open("filename.txt", "r")</code></p>
+                    <p><strong>Reading a File:</strong> <code>content = file.read()</code></p>
+                    <p><strong>Writing to a File:</strong> <code>file.write("Hello, World!")</code></p>
+                    <p><strong>Closing a File:</strong> <code>file.close()</code></p>
+                </div>
+            </div>
+            <!-- Exception Handling -->
+            <div class="topic">
+                <button class="collapsible">Exception Handling</button>
+                <div class="content">
+                    <p><strong>Try-Except Block:</strong> <code>try: pass except Exception as e: pass</code></p>
+                    <p><strong>Finally Block:</strong> <code>finally: pass</code></p>
+                </div>
+            </div>
+            <!-- List Comprehensions -->
+            <div class="topic">
+                <button class="collapsible">List Comprehensions</button>
+                <div class="content">
+                    <p><strong>Basic Syntax:</strong> <code>[expression for item in iterable if condition]</code></p>
+                    <p><strong>Example:</strong> <code>squares = [x**2 for x in range(10)]</code></p>
+                </div>
+            </div>
+            <!-- Decorators -->
+            <div class="topic">
+                <button class="collapsible">Decorators</button>
+                <div class="content">
+                    <p><strong>Defining a Decorator:</strong> <code>def decorator_function(original_function): pass</code></p>
+                    <p><strong>Applying a Decorator:</strong> <code>@decorator_function</code></p>
+                </div>
+            </div>
+            <!-- Generators -->
+            <div class="topic">
+                <button class="collapsible">Generators</button>
+                <div class="content">
+                    <p><strong>Defining a Generator:</strong> <code>def generator_function(): yield value</code></p>
+                    <p><strong>Using a Generator:</strong> <code>for value in generator_function(): pass</code></p>
+                </div>
+            </div>
+            
+ 
